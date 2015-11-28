@@ -1,0 +1,371 @@
+﻿body {
+    background-color: #EEE;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.navigation {
+    width: 100%;
+    
+    margin-bottom: 0px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid #1874CD;
+    border-bottom-color: #1874CD;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-logo {
+    float: left;
+    width: 6%;
+}
+
+.navbar-content {
+    float: left;
+    margin-left: 4%;
+    padding-top: 10px;
+}
+
+
+#wrapper {
+    /*
+    max-width: 1000px;
+    min-width: 800px;
+    margin: auto;
+        */
+    width: 60%;
+    min-width: 800px;
+    margin: auto;
+    }
+
+
+.navigation a {
+    font-size: 20px;
+}
+
+
+
+/*
+.navbar-header a {
+    padding-right: 80px;
+}
+
+nav navbar-nav {
+    
+}
+*/
+.content {
+    
+    background-color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1.5em;
+    min-height: 600px;
+
+}
+
+.page-block {
+    margin-top: 40px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid gray;*/
+}
+
+
+
+#myCarousel {
+
+}
+
+.footer {
+    border-top: 3px solid #1874CD;
+    border-spacing: 5px;
+    padding-bottom: 1.5em;
+    text-align: center;
+    background-color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    /*position: absolute;*/
+    bottom: 0;
+    /*
+    width: 100%;
+    max-width: 1000px;
+    min-width: 800px;
+    margin-top: 1.5em;
+        */
+}
+
+#footerLinks {
+    text-align: left;
+}
+
+#footerRechts {
+    text-align: right;
+}
+
+/*_____________________________________________---Navigation Farbe*/
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+    /*border-bottom 1px;*/
+
+    /*Anstatt in .navigation hier für geschwungene Border, nicht volle Breite:
+        border: none;
+        border-bottom: 3px solid #1874CD;
+        border-bottom-color: #1874CD;
+    */
+}
+
+/*_____________________________________________---Multilevel Naviationselemente---__________________*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+    .dropdown-submenu.pull-left > .dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        -webkit-border-radius: 6px 0 6px 6px;
+        -moz-border-radius: 6px 0 6px 6px;
+        border-radius: 6px 0 6px 6px;
+    }
+
+    /*Dropdown automatisch öffnen*/
+    
+    /*
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+    */
+
+    .dropdown open a {
+        color: #1874cd;
+    }
+
+
+    /*___________________________________________---Link Farben, Hintergrund Menü---________________*/
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #8db6cd;
+
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #1874cd;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: #1874cd;
+    }
+
+
+    /*___________________________________________---Tabellen Sportangebot---_________________________*/
+.table thead > tr > th {
+    width: 20%;
+    text-align: center;
+}
+
+.table tbody > tr > td {
+    width: 20%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/*______________________________________________---Blog---______________________________________________*/
+
+
+/*blog feed*/
+.blog-box {
+    padding: 0 0 20px;
+    border-top: 1px solid #e1e1e1;
+}
+
+    .blog-box h4 {
+        margin-bottom: 0;
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .blog-box a {
+        color: #38393c;
+    }
+
+        .blog-box a:hover {
+            color: #2eadd5;
+            text-decoration: none;
+        }
+
+.blog-info {
+    padding-bottom: 3px;
+}
+
+    .blog-info time {
+        float: right;
+        padding-top: 2px;
+    }
+
+
+
+
+    /*blog home page*/
+.author {
+    line-height: 15px;
+    padding: 0 5px 0 21px;
+    color: #38393C;
+    font-size: 12px;
+    background: url('images/icn-author.png') no-repeat left center;
+}
+
+.blog-post {
+    padding: 40px 0 38px;
+    border-top: 1px solid #e1e1e1;
+}
+
+    .blog-post:first-child {
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    .blog-post h1 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+        .blog-post h1 a {
+            color: #38393c;
+        }
+
+            .blog-post h1 a:hover {
+                color: #2eadd5;
+                text-decoration: none;
+            }
+
+.single-tag {
+    line-height: 15px;
+    padding: 0 10px;
+    margin-left: -4px;
+    border-right: 1px solid #efefef;
+    font-size: 14px;
+}
+
+    .single-tag:first-child {
+        margin-left: 55px;
+        background: url('images/icn-tag.png') no-repeat left center;
+    }
+
+    .single-tag:last-child {
+        border-right: 0;
+    }
+
+/*blog post*/
+.blogpost-head {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+    .blogpost-head h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .blogpost-head span {
+        font-size: 14px;
+    }
+
+    .blogpost-head time {
+        font-size: 14px;
+    }
+
+
+    /*submenü Blog Kategorienfilter*/
+
+    .submenu {
+    border: 1px solid #24a2c9;
+    background: #33b2da;
+}
+
+    .submenu a {
+        display: block;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 19px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Opan Sans', sans-serif;
+        border-top: 1px solid #24a2c9;
+        transition: background 0.1s ease-in-out;
+        -moz-transition: background 0.1s ease-in-out;
+        -webkit-transition: background 0.1s ease-in-out;
+    }
+
+        .submenu a:first-child {
+            border-top: none;
+        }
+
+        .submenu a:hover, .submenu .submenu-active {
+            background: #fff;
+            color: #38393c;
+            margin: 0 -1px;
+            border-left: 1px solid #c6dae1;
+            border-right: 1px solid #c6dae1;
+            text-decoration: none;
+        }
+
+        .side-box {
+            margin-top: 30px;
+            padding: 12px 18px;
+            border: 1px solid #e1e1e1;
+}

@@ -1,0 +1,172 @@
+﻿<!--
+@{
+    ViewBag.Title = "_Navigation";
+}
+-->
+<div class="navigation">
+
+    <nav class="navbar navbar-inverse navbar" role="navigation">
+        <div class="navbar-logo">
+
+            <a href="/">
+                <img src="~/Content/Bilder/TSV_Logo.gif" style="width:100%;height:auto;" />
+            </a>
+
+        </div>
+
+        <div class="navbar-content">
+
+            <ul class="nav navbar-nav">
+
+                <!--Aktuelles-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/aktuelles">
+                        Aktuelles
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Infos">Infos und Berichte</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/Termine">Termine</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/Fotostrecken">Fotostrecken</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/Blog">Blog</a></li>
+                    </ul>
+                </li>
+
+                <!--Sportangebot-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Sportangebot
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="/Überblick">Überblick</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/offenes-kursangebot">Offenes Kursangebot</a></li>
+                        <li class="divider"></li>
+
+                        <!--Second Level Kursangebot nach Zielgruppe-->
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kursangebot nach Zielgruppe</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Kleinkinder">Kleinkinder</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/kinder-u-jugendliche">Kinder u. Jugendliche</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/Mannschaftssport">Mannschaftssport</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/fitness-sport-und-gymnastik">Fitness Sport u. Gymnastik</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/Reha-Sport">Reha Sport</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+
+                        <li><a href="/Übungsleiter">Übungsleiter/-innen</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/Sportstätten">Sportstätten</a></li>
+
+                    </ul>
+                </li>
+
+                <!--Verein-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Verein
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/vorstand">Vorstand</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/ausschuss">Ausschuss</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/jugendausschuss">Jugendausschuss</a></li>
+                        <li class="divider"></li>
+
+                        <!--Second Level Mitgliedschaft-->
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mitgliedschaft</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/mitgliedsantrag">Mitgliedsantrag</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/beitragsordnung">Beitragsordnung</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/vereinsübergreifende-mitgliedschaft">Vereinsübergreifende Mitgliedschaft</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+
+                        <li><a href="/geschichte">Geschichte</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/satzung">Satzung</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/sitzungsprotokolle">Sitzungsprotokolle</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/kontakt">Kontakt</a></li>
+                    </ul>
+                </li>
+                <!--Abteilungen-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Abteilungen
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/leichtathletik">Leichtathletik</a></li>
+                        <li class="divider"></li>
+
+                        <!--Second Level Turnen-->
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Turnen</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/fitness-sport-gymnastik">Fitness Sport / Gymnastik</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/geräteturnen">Geräteturnen</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+
+                        <!--Second Level Tischtennis-->
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tischtennis</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Die-Abteilung">Die Abteilung</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/aktuelles">Aktuelles</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/überblick">Sportangebot</a></li>
+                                <li class="divider"></li>
+
+                                <!--Third Level Tischtennis-->
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Spielbetrieb</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Spielberichte">Spielberichte</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="/Mannschaften">Mannschaften</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider"></li>
+
+                                <li><a href="/sonstiges-links">Sonstiges/Links</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="divider"></li>
+                        <li><a href="/versehrtensport">Versehrtensport</a></li>
+                    </ul>
+                </li>
+
+                <!--Kontakt-->
+                <li><a href="/kontakt">Kontakt</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+</div>

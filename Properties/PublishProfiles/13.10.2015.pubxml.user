@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://h2363246.stratoserver.net/FTPDeploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/CmsData.mdf">
+      <publishTime>10/18/2015 17:12:13</publishTime>
+    </File>
+    <File Include="App_Data/CmsData_log.ldf">
+      <publishTime>10/18/2015 17:12:13</publishTime>
+    </File>
+    <File Include="Areas/Web.config">
+      <publishTime>06/13/2015 17:00:12</publishTime>
+    </File>
+    <File Include="betterCms.license.txt">
+      <publishTime>10/04/2015 19:27:23</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>06/21/2015 11:05:16</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Configuration.dll">
+      <publishTime>10/04/2015 19:27:22</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Core.dll">
+      <publishTime>10/04/2015 19:27:22</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Api.Abstractions.dll">
+      <publishTime>10/04/2015 20:26:51</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Api.dll">
+      <publishTime>10/04/2015 20:26:55</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Blog.dll">
+      <publishTime>10/04/2015 19:27:38</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Installation.dll">
+      <publishTime>10/04/2015 19:27:40</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.MediaManager.dll">
+      <publishTime>10/04/2015 19:27:32</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Pages.dll">
+      <publishTime>10/04/2015 19:27:34</publishTime>
+    </File>
+    <File Include="bin/BetterCms.Module.Root.dll">
+      <publishTime>10/04/2015 19:27:29</publishTime>
+    </File>
+    <File Include="bin/BlogML.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.NLog.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/FluentMigrator.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/FluentMigrator.Runner.dll">
+      <publishTime>06/13/2015 17:01:10</publishTime>
+    </File>
+    <File Include="bin/FluentNHibernate.dll">
+      <publishTime>06/13/2015 17:01:10</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>06/13/2015 17:01:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>06/13/2015 17:00:18</publishTime>
+    </File>
+    <File Include="bin/MvcContrib.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/NHibernate.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/NHibernate.Logging.CommonLogging.dll">
+      <publishTime>06/13/2015 17:01:08</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/NuGet.Core.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/RazorGenerator.Mvc.dll">
+      <publishTime>10/04/2015 19:27:22</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Common.dll">
+      <publishTime>10/04/2015 20:26:41</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.dll">
+      <publishTime>10/04/2015 20:26:47</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Interfaces.dll">
+      <publishTime>10/04/2015 20:26:41</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.OrmLite.SqlServer.dll">
+      <publishTime>10/04/2015 20:26:43</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Redis.dll">
+      <publishTime>10/04/2015 20:26:45</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.ServiceInterface.dll">
+      <publishTime>10/04/2015 20:26:47</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Text.dll">
+      <publishTime>10/04/2015 20:26:39</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/10/2012 12:07:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>06/13/2015 17:00:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>07/10/2012 12:07:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>06/13/2015 17:00:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/13/2015 17:00:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>06/13/2015 17:01:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>06/21/2015 11:05:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>06/13/2015 17:00:16</publishTime>
+    </File>
+    <File Include="bin/TSV.dll">
+      <publishTime>10/18/2015 17:18:13</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>06/21/2015 11:05:16</publishTime>
+    </File>
+    <File Include="Config/cms.config">
+      <publishTime>10/04/2015 19:27:42</publishTime>
+    </File>
+    <File Include="Content/Bilder/Bild1.png">
+      <publishTime>06/27/2015 22:30:36</publishTime>
+    </File>
+    <File Include="Content/Bilder/Bild2.png">
+      <publishTime>06/27/2015 22:37:38</publishTime>
+    </File>
+    <File Include="Content/Bilder/Bild3.png">
+      <publishTime>06/27/2015 22:37:38</publishTime>
+    </File>
+    <File Include="Content/Bilder/Bild4.png">
+      <publishTime>06/27/2015 22:37:38</publishTime>
+    </File>
+    <File Include="Content/Bilder/Schnait.gif">
+      <publishTime>09/05/2015 15:43:38</publishTime>
+    </File>
+    <File Include="Content/Bilder/TSV_Logo.gif">
+      <publishTime>08/30/2015 22:21:05</publishTime>
+    </File>
+    <File Include="Content/Bilder/TSV_Logo_original.jpg">
+      <publishTime>08/30/2015 13:54:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/21/2015 10:53:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/21/2015 10:53:32</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/21/2015 10:53:32</publishTime>
+    </File>
+    <File Include="Content/Style.css">
+      <publishTime>10/18/2015 13:43:13</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/13/2015 17:00:12</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/04/2015 20:26:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/21/2015 10:55:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>06/21/2015 10:55:26</publishTime>
+    </File>
+    <File Include="Views/Blog/Feed.cshtml">
+      <publishTime>10/11/2015 18:09:38</publishTime>
+    </File>
+    <File Include="Views/Blog/GetCategories.cshtml">
+      <publishTime>10/11/2015 18:06:16</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>10/11/2015 21:31:49</publishTime>
+    </File>
+    <File Include="Views/Blog/Last.cshtml">
+      <publishTime>10/04/2015 20:07:36</publishTime>
+    </File>
+    <File Include="Views/Shared/DefaultLayout.cshtml">
+      <publishTime>10/10/2015 23:22:16</publishTime>
+    </File>
+    <File Include="Views/Shared/_Blog.cshtml">
+      <publishTime>10/11/2015 18:08:15</publishTime>
+    </File>
+    <File Include="Views/Shared/_carousel.cshtml">
+      <publishTime>08/30/2015 22:13:48</publishTime>
+    </File>
+    <File Include="Views/Shared/_DefaultLayout.cshtml">
+      <publishTime>10/04/2015 18:53:36</publishTime>
+    </File>
+    <File Include="Views/Shared/_Footer.cshtml">
+      <publishTime>08/16/2015 20:20:59</publishTime>
+    </File>
+    <File Include="Views/Shared/_Navigation.cshtml">
+      <publishTime>10/18/2015 14:21:27</publishTime>
+    </File>
+    <File Include="Views/Shared/_Startseite.cshtml">
+      <publishTime>07/27/2015 10:24:48</publishTime>
+    </File>
+    <File Include="Views/Shared/_twoColumn.cshtml">
+      <publishTime>08/16/2015 00:03:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_twoColumnPicture.cshtml">
+      <publishTime>10/18/2015 17:14:49</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/21/2015 12:17:04</publishTime>
+    </File>
+    <File Include="Views/Widgets/BlogFeedWidget.cshtml">
+      <publishTime>10/10/2015 19:06:32</publishTime>
+    </File>
+    <File Include="Views/Widgets/CategoriesMenuWidget.cshtml">
+      <publishTime>10/11/2015 17:22:49</publishTime>
+    </File>
+    <File Include="Views/Widgets/LatestBlogPostsWidget.cshtml">
+      <publishTime>10/11/2015 17:37:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/18/2015 17:18:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
