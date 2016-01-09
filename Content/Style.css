@@ -81,6 +81,7 @@ nav navbar-nav {
     background-color: white;
     padding-left: 1.5em;
     padding-right: 1.5em;
+	min-height: 1.5em;
 }
 
 .breadcrumb {
@@ -95,7 +96,7 @@ nav navbar-nav {
 }
 
 .page-block {
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
