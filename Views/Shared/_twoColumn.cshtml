@@ -23,6 +23,9 @@
         <!--Render Navigation-->
         @RenderPage("~/Views/Shared/_Navigation.cshtml")
 
+        <div class="breadcrumb-nav">
+            @RenderSection("breadcrumb", false)
+        </div>
 
         <div class="content">
 
